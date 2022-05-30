@@ -10,6 +10,8 @@ Installing and running
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
 Once the dependencies are installed, simply run the `test.py` script to test out the simulator.
+## The Arena 
+![Robot Simulator](https://user-images.githubusercontent.com/17598805/171017018-df5fd141-dd3e-4a12-b20a-7692f44f59f9.png)
 
 ##Assignment Steps
 -----------------------------
@@ -37,9 +39,10 @@ This robot can do:
 
 5- start again from 1
 
-
-To run command: python2 run.py assignment/assignment_v2.py 
-
+To run command: 
+```bash
+$ python2 run.py assignment/assignment_v2.py
+```
 
 ## Exercise
 -----------------------------
