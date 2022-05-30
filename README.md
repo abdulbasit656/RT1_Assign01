@@ -11,6 +11,36 @@ The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org
 
 Once the dependencies are installed, simply run the `test.py` script to test out the simulator.
 
+##Assignment Steps
+-----------------------------
+Assignment 01 python script
+
+The code should make the robot:
+	- 1) find and grab the closest silver marker (token) 
+	- 2) avoid collision with golden marker (token)
+	- 3) move the silver marker behind the robot (move robot clockwise 180 degree)
+	- 4) come back to original position (move robot counter-clockwise 180 degree)
+	- 5) start again from 1
+	
+
+The method see() of the class Robot returns an object whose attribute info.marker_type may be MARKER_TOKEN_GOLD or MARKER_TOKEN_SILVER,
+depending of the type of marker (golden or silver). 
+This robot can do:
+
+1- retrieve the distances and the angle of the closest silver marker and golden markers. If no silver marker is detected, the robot should move forward and rotate in order to find a silver marker and avoid collision with the golden markers.
+
+2- drive the robot towards the silver marker and grab it
+
+3- move the silver marker behind by rotating robot 180 degree clockwise. when done, release the marker by using the method release() of the class Robot.
+
+4- drive the robot counter clockwise about 180 degree to its original position and move forward.
+
+5- start again from 1
+
+
+To run command: python2 run.py assignment/assignment_v2.py 
+
+
 ## Exercise
 -----------------------------
 
