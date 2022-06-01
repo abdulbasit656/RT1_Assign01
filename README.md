@@ -275,7 +275,7 @@ def avoid_collision():
         print("driving")
 ```
 
-M**ain() Function**
+**Main()**
 In main() function I have called both functions (grab_silver_token(), avoid_collision()) in a while state so it can run continuesly.
 Code:
 ```python
