@@ -84,6 +84,7 @@ R.motors[0].m0.power = 25
 R.motors[0].m1.power = -25
 ```
 **drive()**
+	
 The drive() function was created to allow the robot to move straight, it can go forward, giving to speedparameter a positive value, or it can go backward giving to speed parameter a negative value
 
     Arguments
@@ -102,6 +103,7 @@ def drive(speed, seconds):
     R.motors[0].m1.power = 0
 ```
 **turn()**
+	
 The turn() function turns the robot anticlockwise when ever it calls in code.
 	
     Arguments
@@ -139,6 +141,7 @@ Each `Marker` object has the following attributes:
 * `timestamp`: the time at which the marker was seen (when `R.see` was called).
 	
 **find_token():**
+	
 The robot can see all the the tokens around it in the map, in a field of view of 360 degrees and within a particular distance. This function checks all the tokens that the robot see thanks to the R.see() method and returns the distance and the angle between the robot and the closest silver token.
 	
     Arguments
@@ -220,6 +223,7 @@ def grab_silver_token():
 to the collision with the golden tokens trail, I have first calculated the minimum distance to the nearest golden token in a circular sector and then applied the multiple conditions to drive the robot.
 				
 **Sector_min(dist, rot_y_min, rot_y_max):**
+		
 This function returns the distance of the nearest golden token respect the robot in the circular sector specified by the angles rot_y_min, rot_y_max and the radius equal to dist, moreover the try-except function is used to handle the case when there is no token in the circular sector.
 Code:
 ```python
@@ -236,6 +240,7 @@ def Sector_min(dist, rot_y_min, rot_y_max):
     return S_min[0]
 ```
 **avoid_collision():**
+		
 In this function I have implemented multiple conditions to drive the robot around the arena without avoiding the golden token's boundary.
 		
 Code:		
