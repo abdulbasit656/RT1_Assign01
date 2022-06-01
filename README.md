@@ -275,6 +275,18 @@ def avoid_collision():
         print("driving")
 ```
 
-Main() Function
----------------------
+M**ain() Function**
 In main() function I have called both functions (grab_silver_token(), avoid_collision()) in a while state so it can run continuesly.
+Code:
+```python
+def main():
+	while 1:
+		grab_silver_token()
+		avoid_collision()
+
+main()
+```
+
+Conclusion
+-------------------
+Overall, I'm satisfied with the work I've done because it allowed me to learn a lot about Python programming and regarding to the concepts that are in this kind of work, I started to learn something about the logic with which a robot has to decide to move itself in a 2D environment. Furthermore i also learned a lot about github platform and its necessity to save work.
