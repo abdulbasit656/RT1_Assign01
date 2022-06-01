@@ -173,20 +173,3 @@ def main():
 		avoid_collision()
 
 main()
-
-
-
-'''			
-def avoid_collision():
-	dist = 100
-	for marker in R.see():
-		if marker.dist < dist and marker.info.marker_type is MARKER_TOKEN_GOLD:
-			drive(30,1.0)
-			if marker.rot_y < a_th:    			
-		    		turn(10, 0.5)
-		  	elif marker.rot_y > a_th:
-		    		turn(-10, 0.5)
-		    	else:
-				drive(30,0.5)
-'''
-
