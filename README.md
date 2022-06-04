@@ -69,6 +69,11 @@ In order to run the assignment script in the simulator you have to insert this c
 ```bash
 $ python2 run.py assignment/assignment_v2.py
 ```
+	
+Flowchart
+------------------------
+![Flowchart_RT1_Assignment1](https://user-images.githubusercontent.com/17598805/171974678-986dc313-41d7-415a-9e64-acf1481c0b51.png)
+
 Implementation
 ------------------------
 In this assignment I have implemented saveral functions to drive robot according to given task. 
